@@ -80,3 +80,15 @@ a, ul {
     display: flex;
     align-items: flex-end;
 }
+
+.container-four {
+    background-color: #3882F6;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+}
