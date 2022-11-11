@@ -61,3 +61,22 @@ a, ul {
     width: 60px;
     justify-content: center;
 }
+
+.container-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: em;
+}
+
+.person {
+    display: flex;
+    align-items: flex-end;
+}
