@@ -8,22 +8,26 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 12px;
-    height: 60px;
+    
+    height: 30px;
     text-decoration: none;
+    padding: 20px;
 }
 
-a, ul {
+a {
     color: white;
     list-style: none;
     text-decoration: none;
+    margin: 12px;
 }
 
 .right-links {
-    display: flex;
+     
 }
 
 .container-one {
