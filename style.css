@@ -19,6 +19,12 @@ body {
     padding: 20px;
 }
 
+button {
+    background-color: #3882F6;
+    border-radius: 10pc;
+    color: white;
+    padding: 9px;
+}
 a {
     color: white;
     list-style: none;
@@ -26,25 +32,46 @@ a {
     margin: 12px;
 }
 
-.right-links {
-     
-}
 
 .container-one {
     display: flex;
-     
+    
     background-color: #1F2937;
     align-items: center;
-    justify-content: space-around;
+     
+    flex-shrink: 1;
+    justify-content: space-evenly;
     color: #F9FAF9;
+    
 }
+
+.container-one img{
+    
+    width:400px;
+    height: 220px;
+    padding: 40px;
+}
+
+.info-one {
+    width: 400px;
+    height: 220px;
+    padding: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     
+     
+}
+
+
 .hero {
     color: #F9FAF9;
     font-size: 48px;
     font-weight: extra bold;
+    line-height: .70;
 }
 .secondary {
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
 }
 
