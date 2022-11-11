@@ -28,7 +28,36 @@ a, ul {
 
 .container-one {
     display: flex;
+     
     background-color: #1F2937;
     align-items: center;
     justify-content: space-around;
+    color: #F9FAF9;
+}
+.hero {
+    color: #F9FAF9;
+    font-size: 48px;
+    font-weight: extra bold;
+}
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-two  {
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.photos-descriptions {
+    display: flex;
+    width: 60px;
+    justify-content: center;
 }
